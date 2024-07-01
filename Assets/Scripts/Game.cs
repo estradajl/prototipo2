@@ -135,4 +135,9 @@ public class Game : MonoBehaviour
 		countdownText.gameObject.SetActive(true);
 		ball.EndGame();
 	}
+
+	void Imprimirenconsola()
+	{
+		Debug.Log("Hola Mundo");
+	}
 }
