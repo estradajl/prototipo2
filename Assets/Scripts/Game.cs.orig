@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using TMPro;
 using UnityEngine;
 
@@ -136,13 +137,14 @@ public class Game : MonoBehaviour
 		ball.EndGame();
 	}
 
+<<<<<<< Updated upstream
 	void Imprimirenconsola()
 	{
 		Debug.Log("Hola Mundo");
-	}
-
+=======
 	void Imprimir() 
 	{
 		Debug.Log("Hola Como Estad desde John");
+>>>>>>> Stashed changes
 	}
 }
